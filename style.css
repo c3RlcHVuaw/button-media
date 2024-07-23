@@ -1,17 +1,20 @@
-.button_1721716535722 {
-    display: inline-block;
-    text-decoration: none;
-    background-color: #eaeaea;
-    color: #006089;
-    border: 3px solid #006089;
-    border-radius: 5px;
-    font-size: 16px;
-    padding: 15px 50px; 
-    transition: all 0.8s ease;
+<style>
+.button {
+    display: inline-block; /* Делает элемент блочным, но сохраняет его в одной строке */
+    text-decoration: none; /* Убирает подчеркивание текста */
+    background-color: #eaeaea; /* Задает цвет фона кнопки */
+    color: #006089; /* Задает цвет текста */
+    border: 3px solid #006089; /* Задает цвет и толщину границы */
+    border-radius: 5px; /* Задает скругленные углы */
+    font-size: 16px; /* Задает размер шрифта */
+    padding: 15px 50px; /* Задает внутренние отступы */
+    transition: all 0.8s ease; /* Добавляет плавный переход для всех изменений */
 }
-.button_1721716535722:hover{
-    text-decoration: none; 
-    background-color: #006089;
-    color: #ffeded;
-    border-color: #006089;
+
+.button:hover {
+    text-decoration: none; /* Убирает подчеркивание текста при наведении */
+    background-color: #006089; /* Изменяет цвет фона при наведении */
+    color: #ffeded; /* Изменяет цвет текста при наведении */
+    border-color: #006089; /* Сохраняет цвет границы при наведении */
 }
+</style>
